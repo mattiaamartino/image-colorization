@@ -7,23 +7,25 @@ In this work, we assess the performance of various deep learning architectures t
 
 # Repo Structure
 
-- **losses/**: Contains the loss values of the trained models.
-- **models/**: Contains the weights of the trained models, including weights at various epochs during training.
+- **losses/**: Loss values of the trained models.
+- **models/**: Weights of the trained models, including weights at various epochs during training.
 - **outputs/**, **test_images/**, **report_images/**: Contain the black-and-white test images used for evaluation, colorized images and plots used in the report.
-- **utils/**: Contains a library with functions and classes used in the code, including:
+- **utils/**: Library with functions and classes used in the code, including:
   - **dataset.py**: Functions related to data loading and preprocessing.
   - **metrics.py**: Functions to compute evaluation metrics.
   - **models.py**: Definitions of the CNN, U-Net, and GAN architectures.
   - **plots.py**: Functions for plotting results.
   - **training.py**: Functions related to the training process.
 - **report.pdf**: Report of our project.
-- **vm_cnn.ipynb**: Code used to train the final CNN models on the virtual machine.
-- **vm_unet.ipynb**: Code used to train the final U-Net models on the virtual machine.
-- **vm_gan.ipynb**: Code used to train the final GAN model on the virtual machine.
-- **vm_gan_local.ipynb**: Code used to train the final GAN model on a local machine (since it failed on the VM).
-- **baseline.ipynb**: Contains code for baseline models and experiments.
-- **cnn.ipynb**: Contains code for initial CNN models and experiments.
-- **unet.ipynb**: Contains code for initial U-Net models and experiments.
-- **gan.ipynb**: Contains code for initial GAN models and experiments.
+- **notebooks/**: All the notebooks used for the analysis. It includes:
+  - **baseline.ipynb**: Code for baseline models and experiments.
+  - **cnn.ipynb**: Code for initial CNN models and experiments.
+  - **unet.ipynb**: Code for initial U-Net models and experiments.
+  - **gan.ipynb**: Code for initial GAN models and experiments.
+  - **vm/**: Notebooks used in the virtual machine environment:
+    - **vm_cnn.ipynb**: Code used to train the final CNN models on the virtual machine.
+    - **vm_unet.ipynb**: Code used to train the final U-Net models on the virtual machine.
+    - **vm_gan.ipynb**: Code used to train the final GAN model on the virtual machine.
+    - **vm_gan_local.ipynb**: Code used to train the final GAN model on a local machine (since it failed on the VM). 
 - **report_plots.ipynb**: Code to generate the plots used in the report.
 - **tests.ipynb**: Code to generate colorized images from test inputs.
