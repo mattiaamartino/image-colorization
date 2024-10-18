@@ -2,6 +2,8 @@
 
 **Authors**: Diego Cerretti, Beatrice Citterio, Mattia Martino, Sandro Mikautadze
 
+**Web App**: https://imagecolorizationwithdeeplearning.streamlit.app/
+
 # Abstract 
 In this work, we assess the performance of various deep learning architectures to colorize grayscale images, using the MS COCO dataset. We train three main models: a convolutional neural network (CNN), a U-Net, and a generative adversarial network (GAN). For the CNN and U-Net, we use three loss functions to understand their impact on the colorization properties. We evaluate the models' performances using mean squared error (MSE), peak signal-to-noise ratio (PSNR), structural similarity index measure (SSIM), and Fréchet inception distance (FID) score. The results indicate that CNNs struggle to capture the color structure of images, whereas U-Nets achieve significantly better colorization across all evaluation metrics. GANs, although challenging to train, demonstrate comparable performance to U-Nets and show potential for improvement with additional tuning. 
 
